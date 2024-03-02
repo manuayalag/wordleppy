@@ -62,7 +62,7 @@ function terminar(mensaje){
   }
   GANASTE.textContent = mensaje;
   INPUT.disabled = true;
-  BOTON.disabled = true;
+  BUTTON.disabled = true;
   let contenedor = document.getElementById('guesses');
   contenedor.innerHTML = mensaje;
 }
